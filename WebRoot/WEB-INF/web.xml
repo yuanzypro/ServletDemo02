@@ -9,4 +9,54 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>AddCookie</display-name>
+    <servlet-name>AddCookie</servlet-name>
+    <servlet-class>orz.yy.cookie.AddCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddCookie</servlet-name>
+    <url-pattern>/addcookie</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FindCookie</display-name>
+    <servlet-name>FindCookie</servlet-name>
+    <servlet-class>orz.yy.cookie.FindCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindCookie</servlet-name>
+    <url-pattern>/findcookie</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateCookie</display-name>
+    <servlet-name>UpdateCookie</servlet-name>
+    <servlet-class>orz.yy.cookie.UpdateCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateCookie</servlet-name>
+    <url-pattern>/updatecookie</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EncodeCookie</display-name>
+    <servlet-name>EncodeCookie</servlet-name>
+    <servlet-class>orz.yy.cookie.EncodeCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EncodeCookie</servlet-name>
+    <url-pattern>/encodecookie</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DecodeCookie</display-name>
+    <servlet-name>DecodeCookie</servlet-name>
+    <servlet-class>orz.yy.cookie.DecodeCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DecodeCookie</servlet-name>
+    <url-pattern>/decodecookie</url-pattern>
+  </servlet-mapping>
 </web-app>
